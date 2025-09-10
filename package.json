@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "build": "[my-framework] build --output public"
+  }
+}
+{
   "name": "suraksha-kawach",
   "private": true,
   "version": "0.0.0",
