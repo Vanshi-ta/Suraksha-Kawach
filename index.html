@@ -5,54 +5,26 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Suraksha Kawach</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-            },
-            colors: {
-              primary: {
-                DEFAULT: '#005A9C',
-                dark: '#004B80'
-              },
-              action: {
-                DEFAULT: '#F37021',
-                hover: '#D8601C'
-              },
-              success: {
-                DEFAULT: '#2E8540',
-                hover: '#246B33'
-              },
-              severity: {
-                high: '#D92D20',
-                medium: '#F79009',
-                low: '#10B981'
-              }
-            }
-          }
-        }
-      }
-    </script>
   <script type="importmap">
 {
   "imports": {
-    "react": "https://aistudiocdn.com/react@^19.1.1",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
-    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "vite": "https://aistudiocdn.com/vite@^7.1.5",
     "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.8.2",
     "recharts": "https://aistudiocdn.com/recharts@^3.2.0",
-    "framer-motion": "https://aistudiocdn.com/framer-motion@^11.3.11"
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.0.2",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.12"
   }
 }
 </script>
 </head>
   <body class="bg-gray-50 text-gray-800">
     <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
   </body>
 </html>
